@@ -1,3 +1,5 @@
+package br.com.abc.introducao.arrays;
+
 public class Arrays2 {
     public static void main(String[] args) {
         // valores default ao criar array e não declarar valor
@@ -8,6 +10,9 @@ public class Arrays2 {
         nomes[0] = "Naruto";
         nomes[1] = "Goku";
         nomes[2] = "Luffy";
-
+        int tamanho = nomes.length;
+        for (int i=0; i < tamanho; i++){
+            System.out.println(nomes[i]);
+        }
     }
 }

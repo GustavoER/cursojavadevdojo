@@ -1,3 +1,5 @@
+package br.com.abc.introducao.controlefluxo;
+
 public class ControleDeFluxo6 {
     public static void main(String[] args) {
         // Dado valor de um carro descubra quantas vezes ele pode ser parcelado;
