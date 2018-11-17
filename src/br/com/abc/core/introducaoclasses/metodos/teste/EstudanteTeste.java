@@ -7,7 +7,7 @@ public class EstudanteTeste {
         Estudante estudante = new Estudante();
         estudante.setNome("Gustavo");
         estudante.setIdade(26);
-        estudante.setNotas(new double[]{6.0, 6.0, 5.0});
+        estudante.setNotas(new double[]{6.0, 6.0, 6.0});
         estudante.imprimirDados();
     }
 }

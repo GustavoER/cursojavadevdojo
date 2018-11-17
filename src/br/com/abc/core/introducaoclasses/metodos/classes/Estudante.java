@@ -4,7 +4,9 @@ public class Estudante {
     private String nome;
     private int idade;
     private double[] notas;
+    private boolean aprovado;
 
+    // getter e setter
     public void setNome(String nome){
         this.nome = nome;
     }
@@ -29,6 +31,10 @@ public class Estudante {
         return this.notas;
     }
 
+    public boolean isAprovado(){
+        return this.aprovado;
+    }
+
     public void imprimirDados(){
         System.out.println("Nome: " +this.nome);
         System.out.println("Idade: " +this.idade);
@@ -36,6 +42,8 @@ public class Estudante {
         for (double nota : notas) {
             soma += nota;
         }
-        System.out.println(soma/3 >= 6? "Aprovado": "Reprovado");
+        this.aprovado = soma/3 >= 6? true: false;
+        System.out.println(aprovado == true? "Aprovado": "Reprovado");
+
     }
 }
