@@ -4,11 +4,17 @@ public class Estudante {
     private String matricula;
     private String nome;
     private double[] notas;
+    private String dataMatricula;
 
     public Estudante(String matricula, String nome, double[] notas) {
         this.matricula = matricula;
         this.nome = nome;
         this.notas = notas;
+    }
+
+    public Estudante(String matricula, String nome, double[] notas, String dataMatricula) {
+        this(matricula, nome, notas);
+        this.dataMatricula = dataMatricula;
     }
 
     public Estudante(){
