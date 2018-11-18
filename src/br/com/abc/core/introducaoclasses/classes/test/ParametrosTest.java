@@ -1,6 +1,6 @@
 package br.com.abc.core.introducaoclasses.classes.test;
 
-import br.com.abc.core.introducaoclasses.metodos.classes.Calculadora;
+import br.com.abc.core.metodos.classes.Calculadora;
 
 public class ParametrosTest {
     public static void main(String[] args) {

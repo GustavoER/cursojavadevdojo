@@ -1,4 +1,4 @@
-package br.com.abc.core.introducaoclasses.sobrecarga.classes;
+package br.com.abc.core.sobrecarga.classes;
 
 public class Funcionario {
     private String nome;

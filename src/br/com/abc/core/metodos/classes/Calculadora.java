@@ -1,4 +1,4 @@
-package br.com.abc.core.introducaoclasses.metodos.classes;
+package br.com.abc.core.metodos.classes;
 
 public class Calculadora {
 

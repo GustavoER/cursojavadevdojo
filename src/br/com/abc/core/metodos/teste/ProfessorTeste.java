@@ -1,6 +1,6 @@
-package br.com.abc.core.introducaoclasses.metodos.teste;
+package br.com.abc.core.metodos.teste;
 
-import br.com.abc.core.introducaoclasses.metodos.classes.Professor;
+import br.com.abc.core.metodos.classes.Professor;
 
 public class ProfessorTeste {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package br.com.abc.core.introducaoclasses.blocodeinicializacao.teste;
+package br.com.abc.core.blocodeinicializacao.teste;
 
-import br.com.abc.core.introducaoclasses.blocodeinicializacao.classes.Cliente;
+import br.com.abc.core.blocodeinicializacao.classes.Cliente;
 
 public class ClienteTeste {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package br.com.abc.core.introducaoclasses.sobrecarga.teste;
+package br.com.abc.core.sobrecarga.teste;
 
-import br.com.abc.core.introducaoclasses.sobrecarga.construtores.Estudante;
+import br.com.abc.core.sobrecarga.construtores.Estudante;
 
 public class EstudanteTeste {
     public static void main(String[] args) {

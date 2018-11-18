@@ -1,6 +1,6 @@
-package br.com.abc.core.introducaoclasses.sobrecarga.teste;
+package br.com.abc.core.sobrecarga.teste;
 
-import br.com.abc.core.introducaoclasses.sobrecarga.classes.Funcionario;
+import br.com.abc.core.sobrecarga.classes.Funcionario;
 
 public class FuncionarioTest {
     public static void main(String[] args) {

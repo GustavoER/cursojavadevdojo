@@ -1,4 +1,4 @@
-package br.com.abc.core.introducaoclasses.blocodeinicializacao.classes;
+package br.com.abc.core.blocodeinicializacao.classes;
 
 public class Cliente {
     // 1 - Alocado espaço na memória para o objeto que será criado

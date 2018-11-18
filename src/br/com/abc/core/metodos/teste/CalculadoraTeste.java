@@ -1,6 +1,6 @@
-package br.com.abc.core.introducaoclasses.metodos.teste;
+package br.com.abc.core.metodos.teste;
 
-import br.com.abc.core.introducaoclasses.metodos.classes.Calculadora;
+import br.com.abc.core.metodos.classes.Calculadora;
 
 public class CalculadoraTeste {
     public static void main(String[] args) throws Exception {
