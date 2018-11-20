@@ -1,7 +1,6 @@
 package br.com.abc.core.associacao.classes;
 
-public class Endereco {
+public class Local {
     private String rua;
     private String bairro;
-    private String estado;
 }
