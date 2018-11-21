@@ -3,7 +3,11 @@ package br.com.abc.core.heranca.classes;
 public class Endereco {
     private String rua;
     private String bairro;
-
+    public void imprime(){
+        System.out.println(this.rua);
+        Pessoa p = new Pessoa();
+        p.imprime();
+    }
     public String getRua() {
         return rua;
     }

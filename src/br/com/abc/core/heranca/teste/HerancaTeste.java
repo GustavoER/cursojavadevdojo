@@ -20,5 +20,6 @@ public class HerancaTeste {
         f.setCpf("98765");
         f.setSalario(15000);
         f.setEndereco(endereco);
+        f.imprime();
     }
 }

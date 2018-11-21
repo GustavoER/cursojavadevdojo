@@ -1,9 +1,20 @@
 package br.com.abc.core.heranca.classes;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    // protected pode ser acessado por herança ou estando no msm pacote
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
+
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf) {
+        this(nome);
+        this.cpf = cpf;
+    }
 
     public void imprime(){
         System.out.println("Nome " + this.nome);
