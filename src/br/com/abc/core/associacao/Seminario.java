@@ -1,4 +1,4 @@
-package br.com.abc.core.associacao.classes;
+package br.com.abc.core.associacao;
 
 import java.util.List;
 

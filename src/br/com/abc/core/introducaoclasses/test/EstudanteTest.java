@@ -1,4 +1,4 @@
-package br.com.abc.core.introducaoclasses.classes.test;
+package br.com.abc.core.introducaoclasses.test;
 
 import br.com.abc.core.introducaoclasses.classes.Estudante;
 
