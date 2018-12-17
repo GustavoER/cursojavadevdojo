@@ -1,5 +1,7 @@
 package br.com.abc.core.colecoes.classes;
 
+import java.util.Objects;
+
 public class Celular {
     private String nome;
     private String imei;
@@ -38,5 +40,10 @@ public class Celular {
     public Celular(String nome, String imei) {
         this.nome = nome;
         this.imei = imei;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(imei);
     }
 }
